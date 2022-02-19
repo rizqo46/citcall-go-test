@@ -13,7 +13,7 @@ Dalam mengejakan soal ini digunakan fungsi table generator yang ada di repositor
 ```
 go run main.go
 ```
-atau anda dapat menjalankan fungsi testing __TestMakeTable()__ jika anda menggunakan VsCode. Kemudian akan ada file baru (atau ditimpa bila file sudah ada) yang bernama __table.html__.
+atau anda dapat menjalankan fungsi testing __TestMakeTable()__ jika anda menggunakan VsCode. Kemudian akan ada file baru (atau ditimpa bila file sudah ada) yang bernama __table.html__. Tabel hasil jadi sudah ada di [__no1-data-manipulation/table.html__](https://github.com/rizqo46/citcall-go-test/blob/main/no1-data-manipulation/table.html)
 
 Cacatan: file __table.html__ dapat dihapus terlebih dahulu jika memang sudah ada dan ingin melihat fungsi generator berhasil atau tidak.
 
