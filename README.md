@@ -1,12 +1,14 @@
 # citcall-go-test
 Created by Muhammad Abyan Rizqo
 
+Repository link https://github.com/rizqo46/citcall-go-test.
+
 This repo is part of Citcall Golang Test.
 
 ----
 
 ## No. 1 Pengolahan Data (Data Menupulation)
-Dalam mengejakan soal ini digunakan fungsi table generator yang ada di repository pada file __no1-data-manipulation/data_manipulation.go__ pada fungsi __MakeTable()__. Dimana data diambil langsung dari https://citcall.com/test/countries.json, kemudian data diolah secara langsung menjadi table html. Untuk membuat tabel anda dapat run command berikut.
+Dalam mengejakan soal ini digunakan fungsi table generator yang ada di repository pada file [__no1-data-manipulation/data_manipulation.go__](https://github.com/rizqo46/citcall-go-test/blob/main/no1-data-manipulation/data_manipulation.go)  pada fungsi __MakeTable()__. Dimana data diambil langsung dari https://citcall.com/test/countries.json, kemudian data diolah secara langsung menjadi table html. Untuk membuat tabel anda dapat run command berikut.
 
 ```
 go run main.go
@@ -30,8 +32,8 @@ Perhatikan bahwa pada Code A dan Code B hanya berbeda pada baris-baris berikut:
 
 ```golang
 ...
-        size := len(tmp)
-		for i := 0; i == size; i++ {
+size := len(tmp)
+for i := 0; i == size; i++ {
 ...
 ```
 
@@ -40,7 +42,7 @@ Perhatikan bahwa pada Code A dan Code B hanya berbeda pada baris-baris berikut:
 
 ```golang
 ...
-		for i := 0; i == len(tmp); i++ {
+for i := 0; i == len(tmp); i++ {
 ...
 ```
 
@@ -65,7 +67,7 @@ for {
 ```
 Dapat disimpulkan bahwa __len(tmp) = 1000__. Sehingga kondisi loop 
 ``` golang 
-        for i := 0; i == len(tmp); i++ {
+for i := 0; i == len(tmp); i++ {
 ```
 tidak terpenuhi sejak awal, sehingga loop tersebut tidak pernah berjalan.
 
@@ -120,7 +122,7 @@ func Makan(b *Bebek) {
 
 Sehingga dapat diambil objek __Bebek__ dari alamat aslinya dan atribut yang ada di objek aslinya dapat berubah. Namun perlu diperhatikan bahwa input fungsi terebut harus berupa pinter dari __Bebek__ __(*Bebek)__.
 
-Dapat dijalankan testing yang ada pada __no3-problem-solving/problem_solving_test.go__ untuk mengetes apakah atribut dari __Bebek__ berhasil diubah. 
+Dapat dijalankan testing yang ada pada [__no3-problem-solving/problem_solving_test.go__](https://github.com/rizqo46/citcall-go-test/blob/main/no3-problem-solving/problem_solving_test.go) untuk mengetes apakah atribut dari __Bebek__ berhasil diubah. 
 
 
 
